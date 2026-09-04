@@ -1,0 +1,11 @@
+file '/mnt/data/ARESTER_GROUP_40Pages_CinematicTextStory/assets/cinematic_text_story/01.jpg'
+duration 4
+file '/mnt/data/ARESTER_GROUP_40Pages_CinematicTextStory/assets/cinematic_text_story/02.jpg'
+duration 4
+file '/mnt/data/ARESTER_GROUP_40Pages_CinematicTextStory/assets/cinematic_text_story/03.jpg'
+duration 4
+file '/mnt/data/ARESTER_GROUP_40Pages_CinematicTextStory/assets/cinematic_text_story/04.jpg'
+duration 4
+file '/mnt/data/ARESTER_GROUP_40Pages_CinematicTextStory/assets/cinematic_text_story/05.jpg'
+duration 4
+file '/mnt/data/ARESTER_GROUP_40Pages_CinematicTextStory/assets/cinematic_text_story/05.jpg'
