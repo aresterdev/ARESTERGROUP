@@ -1,4 +1,2816 @@
-<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#02070d"><meta name="description" content="ARESTER GROUP technology ecosystem"><title>Home — ARESTER GROUP</title><link rel="stylesheet" href="assets/site.css"></head><body data-page="home"><div class="site-bg"></div><header class="header"><a href="index.html" class="header-brand"><div class="brand-lockup compact group-logo-lockup"><img src="assets/arester-group.png" alt="ARESTER GROUP"></div></a><nav class="desktop-nav"><a href="index.html">Home</a><a href="about.html">Company</a><a href="ecosystem.html">Ecosystem</a><a href="technology.html">Technology</a><a href="products.html">Products</a><a href="services.html">Services</a><a href="isp-billing.html">ISP Billing</a><a href="portfolio.html">Portfolio</a><a href="support.html">Support</a><a href="login.html" class="nav-login">Customer Area</a></nav><div class="header-tools"><button id="themePulse" class="icon-btn">◉</button><button id="menuBtn" class="menu-btn">☰</button></div></header><div class="mobile-nav" id="mobileNav"><a href="index.html">Home</a><a href="about.html">Company</a><a href="ecosystem.html">Ecosystem</a><a href="technology.html">Technology</a><a href="products.html">Products</a><a href="services.html">Services</a><a href="isp-billing.html">ISP Billing</a><a href="portfolio.html">Portfolio</a><a href="support.html">Support</a><a href="login.html" class="nav-login">Customer Area</a><a href="pricing.html">Pricing</a><a href="contact.html">Contact</a><a href="admin.html">Admin</a><a href="legal.html">Legal</a></div><main><section class="story-hero"><video class="story-video" autoplay muted loop playsinline preload="auto"><source src="assets/arester-cinematic-text-story-20s.mp4" type="video/mp4"></video><div class="story-overlay"></div><div class="story-grid"></div><div class="container story-content"><div class="page-index">ARESTER GROUP / TECHNOLOGY • CONNECTIVITY • DIGITAL SYSTEMS</div><h1 class="story-title">Integrating People,<br>Technology & <span>Opportunity.</span></h1><p class="story-copy">Building a more connected and sustainable future through connectivity, digital engineering, products, services, and scalable technology systems.</p><div class="actions"><a class="btn" href="ecosystem.html">Explore Ecosystem</a><a class="btn secondary" href="technology.html">Explore Technology</a></div><div class="hero-units">
-<a href="networking-services.html" class="hero-unit"><img src="assets/aresternet.png" alt="ARESTERNET"><div><b>ARESTERNET</b><span>Connectivity & ISP Solutions</span></div></a>
-<a href="technology.html" class="hero-unit"><img src="assets/aresterdev.png" alt="ARESTERdev"><div><b>ARESTERdev</b><span>Official Development Team</span></div></a>
-</div><div class="story-meta"><div><b>MASTER BRAND</b><span>ARESTER GROUP</span></div><div><b>MAIN BUSINESS</b><span>ARESTERNET</span></div><div><b>DEVELOPMENT ENGINE</b><span>ARESTERdev</span></div></div></div></section><section class="intro-band"><div class="container"><div class="page-index">30-PAGE PLATFORM</div><h2 class="display-title">Explore every layer of ARESTER.</h2><div class="deep-grid"><a class="deep-card" href="about.html"><span class="num">01</span><h3>Company</h3><p>Corporate identity, direction, operating model, and long-term structure.</p></a><a class="deep-card" href="ecosystem.html"><span class="num">02</span><h3>Ecosystem</h3><p>How ARESTER GROUP, ARESTERNET, ARESTERdev, products, and customer systems connect.</p></a><a class="deep-card" href="technology.html"><span class="num">03</span><h3>Technology</h3><p>Engineering layers, automation, tools, platforms, and digital core.</p></a><a class="deep-card" href="products.html"><span class="num">04</span><h3>Products</h3><p>MikroTik templates, website templates, and digital products.</p></a><a class="deep-card" href="services.html"><span class="num">05</span><h3>Services</h3><p>Networking, MikroTik, website, and custom development services.</p></a><a class="deep-card" href="isp-billing.html"><span class="num">06</span><h3>ISP Billing SaaS</h3><p>Recurring billing platform, plans, features, subscriptions, and demo.</p></a></div></div></section></main><footer class="footer"><div class="footer-grid"><div><div class="brand-lockup group-logo-lockup"><img src="assets/arester-group.png" alt="ARESTER GROUP"></div><p>Integrated technology group for connectivity, digital products, IT services, and ISP systems.</p></div><div><h4>Explore</h4><a href="about.html">Company</a><a href="ecosystem.html">Ecosystem</a><a href="technology.html">Technology</a><a href="portfolio.html">Portfolio</a></div><div><h4>Business</h4><a href="products.html">Products</a><a href="services.html">Services</a><a href="isp-billing.html">ISP Billing</a><a href="pricing.html">Pricing</a></div><div><h4>Platform</h4><a href="login.html">Login</a><a href="customer-area.html">Customer Area</a><a href="support.html">Support</a><a href="contact.html">Contact</a></div></div><div class="footer-bottom"><span>© 2026 ARESTER GROUP</span><span>Digital systems engineered by ARESTERdev</span></div></footer><script src="assets/site.js"></script></body></html>
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <meta name="theme-color" content="#02070d">
+  <meta
+    name="description"
+    content="ARESTER GROUP — integrated technology ecosystem for connectivity, digital engineering, products, services, and scalable technology systems."
+  >
+
+  <title>ARESTER GROUP — Technology • Connectivity • Digital Systems</title>
+
+  <style>
+    :root{
+      --bg:#02070d;
+      --bg2:#06111c;
+      --panel:#071725;
+      --line:#14384f;
+
+      --text:#eef9ff;
+      --muted:#91aabd;
+
+      --cyan:#35c5ff;
+      --cyan2:#1287bd;
+
+      --max:1260px;
+      --header:86px;
+    }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    html{
+      scroll-behavior:smooth;
+      background:var(--bg);
+    }
+
+    body{
+      margin:0;
+      min-height:100%;
+      color:var(--text);
+      font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+      background:
+        radial-gradient(
+          circle at 75% 5%,
+          rgba(31,151,205,.16),
+          transparent 30%
+        ),
+        linear-gradient(
+          180deg,
+          #02070d,
+          #06111c 48%,
+          #02070d
+        );
+
+      line-height:1.55;
+      overflow-x:hidden;
+    }
+
+    body.menu-open{
+      overflow:hidden;
+    }
+
+    a{
+      color:inherit;
+      text-decoration:none;
+    }
+
+    button{
+      font:inherit;
+    }
+
+    img,
+    video{
+      display:block;
+      max-width:100%;
+    }
+
+    .container{
+      width:min(var(--max), calc(100% - 48px));
+      margin-inline:auto;
+    }
+
+    /* =========================================================
+       HEADER
+    ========================================================= */
+
+    .header{
+      position:fixed;
+      top:0;
+      left:0;
+      right:0;
+      z-index:1000;
+
+      height:var(--header);
+
+      display:flex;
+      align-items:center;
+      gap:24px;
+
+      padding-inline:
+        max(
+          24px,
+          calc((100vw - var(--max)) / 2)
+        );
+
+      border-bottom:1px solid rgba(255,255,255,.06);
+
+      background:
+        linear-gradient(
+          180deg,
+          rgba(2,7,13,.82),
+          rgba(2,7,13,.45)
+        );
+
+      backdrop-filter:blur(16px);
+      -webkit-backdrop-filter:blur(16px);
+
+      transition:
+        background .3s ease,
+        border-color .3s ease,
+        box-shadow .3s ease;
+    }
+
+    .header.scrolled{
+      background:rgba(2,7,13,.94);
+      border-color:rgba(78,190,235,.13);
+
+      box-shadow:
+        0 12px 40px rgba(0,0,0,.28);
+    }
+
+    .header-brand{
+      display:flex;
+      align-items:center;
+      min-width:235px;
+      flex-shrink:0;
+    }
+
+    .header-logo{
+      height:48px;
+      width:auto;
+      object-fit:contain;
+    }
+
+    .desktop-nav{
+      display:flex;
+      align-items:center;
+      gap:19px;
+
+      margin-left:auto;
+    }
+
+    .desktop-nav a{
+      color:#adc2cf;
+      font-size:13px;
+      font-weight:700;
+
+      transition:
+        color .2s ease,
+        opacity .2s ease;
+    }
+
+    .desktop-nav a:hover{
+      color:#fff;
+    }
+
+    .desktop-nav .nav-login{
+      min-height:42px;
+      display:inline-flex;
+      align-items:center;
+
+      padding:0 16px;
+
+      border-radius:11px;
+      border:1px solid rgba(53,197,255,.45);
+
+      color:#e9faff;
+
+      background:
+        rgba(11,41,59,.64);
+    }
+
+    .header-tools{
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+
+    .menu-btn{
+      width:44px;
+      height:44px;
+
+      display:none;
+
+      align-items:center;
+      justify-content:center;
+
+      padding:0;
+
+      cursor:pointer;
+
+      border:1px solid rgba(80,184,224,.28);
+      border-radius:12px;
+
+      color:#fff;
+
+      background:
+        rgba(6,23,35,.72);
+    }
+
+    .menu-lines{
+      width:18px;
+      height:14px;
+      position:relative;
+    }
+
+    .menu-lines span{
+      position:absolute;
+      left:0;
+
+      width:100%;
+      height:1.5px;
+
+      background:#eaf9ff;
+
+      transition:
+        transform .25s ease,
+        top .25s ease,
+        opacity .2s ease;
+    }
+
+    .menu-lines span:nth-child(1){
+      top:0;
+    }
+
+    .menu-lines span:nth-child(2){
+      top:6px;
+    }
+
+    .menu-lines span:nth-child(3){
+      top:12px;
+    }
+
+    .menu-btn.active .menu-lines span:nth-child(1){
+      top:6px;
+      transform:rotate(45deg);
+    }
+
+    .menu-btn.active .menu-lines span:nth-child(2){
+      opacity:0;
+    }
+
+    .menu-btn.active .menu-lines span:nth-child(3){
+      top:6px;
+      transform:rotate(-45deg);
+    }
+
+    /* =========================================================
+       MOBILE NAVIGATION
+    ========================================================= */
+
+    .mobile-nav{
+      position:fixed;
+      top:var(--header);
+      left:0;
+      right:0;
+
+      z-index:999;
+
+      max-height:calc(100dvh - var(--header));
+      overflow-y:auto;
+
+      padding:
+        10px
+        max(20px, calc((100vw - var(--max)) / 2))
+        24px;
+
+      display:grid;
+
+      visibility:hidden;
+      opacity:0;
+      pointer-events:none;
+
+      transform:translateY(-12px);
+
+      background:
+        rgba(2,7,13,.97);
+
+      backdrop-filter:blur(18px);
+      -webkit-backdrop-filter:blur(18px);
+
+      border-bottom:1px solid rgba(61,173,218,.18);
+
+      transition:
+        opacity .25s ease,
+        visibility .25s ease,
+        transform .25s ease;
+    }
+
+    .mobile-nav.open{
+      visibility:visible;
+      opacity:1;
+      pointer-events:auto;
+      transform:translateY(0);
+    }
+
+    .mobile-nav a{
+      padding:15px 4px;
+
+      border-bottom:
+        1px solid rgba(255,255,255,.06);
+
+      color:#b8cbd5;
+
+      font-size:15px;
+      font-weight:700;
+    }
+
+    .mobile-nav a:hover{
+      color:#fff;
+    }
+
+    .mobile-nav .mobile-login{
+      margin-top:12px;
+
+      padding:14px 16px;
+
+      text-align:center;
+
+      color:#fff;
+
+      border:1px solid rgba(53,197,255,.5);
+      border-radius:12px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(20,137,183,.74),
+          rgba(26,175,226,.56)
+        );
+    }
+
+    /* =========================================================
+       HERO
+    ========================================================= */
+
+    .story-hero{
+      position:relative;
+      isolation:isolate;
+
+      min-height:100vh;
+      min-height:100svh;
+      min-height:100dvh;
+
+      overflow:hidden;
+
+      display:flex;
+      align-items:flex-end;
+
+      background:
+        radial-gradient(
+          circle at 72% 42%,
+          rgba(37,171,221,.16),
+          transparent 26%
+        ),
+        linear-gradient(
+          135deg,
+          #02070d,
+          #06131f 52%,
+          #02070d
+        );
+    }
+
+    /*
+      IMPORTANT:
+      Video tidak lagi memakai z-index negatif ekstrem.
+      Ini membantu menghindari video hilang karena stacking context.
+    */
+
+    .story-video-wrap{
+      position:absolute;
+      inset:0;
+
+      z-index:0;
+
+      overflow:hidden;
+
+      background:
+        radial-gradient(
+          circle at 70% 45%,
+          rgba(45,183,235,.18),
+          transparent 28%
+        ),
+        #02070d;
+    }
+
+    .story-video{
+      position:absolute;
+      inset:0;
+
+      width:100%;
+      height:100%;
+
+      object-fit:cover;
+      object-position:center center;
+
+      opacity:0;
+
+      transform:scale(1.02);
+
+      transition:
+        opacity 1.1s ease,
+        transform 8s linear;
+
+      background:#02070d;
+    }
+
+    .story-video.video-ready{
+      opacity:1;
+      transform:scale(1.06);
+    }
+
+    .story-video.video-error{
+      display:none;
+    }
+
+    /*
+      Fallback background ketika video gagal autoplay / gagal decode.
+    */
+
+    .hero-fallback{
+      position:absolute;
+      inset:0;
+
+      z-index:-1;
+
+      overflow:hidden;
+
+      background:
+        radial-gradient(
+          circle at 76% 42%,
+          rgba(46,193,247,.18),
+          transparent 20%
+        ),
+        radial-gradient(
+          circle at 72% 45%,
+          rgba(18,88,130,.19),
+          transparent 36%
+        ),
+        linear-gradient(
+          135deg,
+          #02070d 0%,
+          #061724 50%,
+          #02070d 100%
+        );
+    }
+
+    .hero-fallback::before{
+      content:"";
+
+      position:absolute;
+
+      width:650px;
+      height:650px;
+
+      right:-110px;
+      top:50%;
+
+      transform:translateY(-50%);
+
+      border-radius:50%;
+
+      border:
+        1px solid rgba(73,201,250,.12);
+
+      box-shadow:
+        0 0 0 70px rgba(41,186,238,.018),
+        0 0 0 150px rgba(41,186,238,.014),
+        0 0 160px rgba(36,184,240,.08);
+    }
+
+    .hero-fallback::after{
+      content:"";
+
+      position:absolute;
+
+      width:4px;
+      height:4px;
+
+      right:28%;
+      top:38%;
+
+      border-radius:50%;
+
+      background:#72ddff;
+
+      box-shadow:
+        0 0 12px #43cdfc,
+        55px 28px 0 rgba(80,217,255,.8),
+        118px -60px 0 rgba(80,217,255,.65),
+        -84px -70px 0 rgba(80,217,255,.7),
+        -165px 110px 0 rgba(80,217,255,.5),
+        190px 120px 0 rgba(80,217,255,.4),
+        250px -110px 0 rgba(80,217,255,.35);
+
+      animation:
+        fallbackPulse 3s ease-in-out infinite;
+    }
+
+    @keyframes fallbackPulse{
+      0%,100%{
+        opacity:.35;
+      }
+
+      50%{
+        opacity:1;
+      }
+    }
+
+    .story-overlay{
+      position:absolute;
+      inset:0;
+
+      z-index:1;
+
+      pointer-events:none;
+
+      background:
+        linear-gradient(
+          90deg,
+          rgba(2,7,13,.97) 0%,
+          rgba(2,7,13,.87) 28%,
+          rgba(2,7,13,.58) 52%,
+          rgba(2,7,13,.20) 80%,
+          rgba(2,7,13,.28) 100%
+        ),
+        linear-gradient(
+          0deg,
+          rgba(2,7,13,1) 0%,
+          rgba(2,7,13,.88) 6%,
+          rgba(2,7,13,.18) 42%,
+          rgba(2,7,13,.18) 100%
+        );
+    }
+
+    .story-grid{
+      position:absolute;
+      inset:0;
+
+      z-index:2;
+
+      pointer-events:none;
+
+      opacity:.45;
+
+      background-image:
+        linear-gradient(
+          rgba(255,255,255,.018) 1px,
+          transparent 1px
+        ),
+        linear-gradient(
+          90deg,
+          rgba(255,255,255,.018) 1px,
+          transparent 1px
+        );
+
+      background-size:
+        96px 96px;
+    }
+
+    .story-glow{
+      position:absolute;
+
+      z-index:2;
+
+      pointer-events:none;
+
+      width:50vw;
+      height:50vw;
+
+      min-width:430px;
+      min-height:430px;
+
+      right:-19vw;
+      top:23%;
+
+      border-radius:50%;
+
+      background:
+        radial-gradient(
+          circle,
+          rgba(45,193,245,.10),
+          rgba(45,193,245,.025) 35%,
+          transparent 68%
+        );
+
+      filter:blur(4px);
+    }
+
+    .story-content{
+      position:relative;
+      z-index:10;
+
+      width:100%;
+
+      padding-top:
+        calc(var(--header) + 120px);
+
+      padding-bottom:76px;
+    }
+
+    .page-index{
+      display:flex;
+      align-items:center;
+      gap:12px;
+
+      color:#69d8ff;
+
+      font-size:11px;
+      line-height:1.4;
+
+      font-weight:900;
+
+      letter-spacing:.22em;
+
+      text-transform:uppercase;
+    }
+
+    .page-index::before{
+      content:"";
+
+      flex:0 0 32px;
+
+      width:32px;
+      height:1px;
+
+      background:#4fd0ff;
+    }
+
+    .story-title{
+      max-width:1150px;
+
+      margin:
+        22px
+        0
+        30px;
+
+      font-size:
+        clamp(
+          62px,
+          8.3vw,
+          128px
+        );
+
+      line-height:.86;
+
+      letter-spacing:-.072em;
+
+      font-weight:900;
+
+      text-transform:uppercase;
+    }
+
+    .story-title span{
+      color:#63d9ff;
+
+      text-shadow:
+        0 0 34px rgba(54,198,245,.20);
+    }
+
+    .story-copy{
+      max-width:760px;
+
+      margin:0;
+
+      color:#b0c3ce;
+
+      font-size:
+        clamp(
+          17px,
+          1.7vw,
+          21px
+        );
+    }
+
+    .actions{
+      display:flex;
+      align-items:center;
+      flex-wrap:wrap;
+
+      gap:12px;
+
+      margin-top:30px;
+    }
+
+    .btn{
+      min-height:52px;
+
+      padding:0 22px;
+
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+
+      border:
+        1px solid rgba(59,198,245,.72);
+
+      border-radius:13px;
+
+      color:#fff;
+
+      font-size:14px;
+      font-weight:850;
+
+      background:
+        linear-gradient(
+          135deg,
+          #138cbc,
+          #2db8e7
+        );
+
+      box-shadow:
+        0 8px 30px rgba(31,167,215,.14);
+
+      transition:
+        transform .2s ease,
+        background .2s ease,
+        border-color .2s ease;
+    }
+
+    .btn:hover{
+      transform:translateY(-2px);
+    }
+
+    .btn.secondary{
+      color:#d2e6ef;
+
+      background:
+        rgba(7,23,37,.76);
+
+      border-color:
+        rgba(61,119,145,.72);
+
+      backdrop-filter:blur(12px);
+    }
+
+    /* =========================================================
+       BUSINESS UNITS
+    ========================================================= */
+
+    .hero-units{
+      width:min(740px, 100%);
+
+      display:grid;
+
+      grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+      gap:12px;
+
+      margin-top:35px;
+    }
+
+    .hero-unit{
+      position:relative;
+
+      min-height:88px;
+
+      display:flex;
+      align-items:center;
+
+      gap:15px;
+
+      padding:13px 17px;
+
+      border:
+        1px solid rgba(100,196,233,.18);
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(7,25,38,.76),
+          rgba(6,17,28,.64)
+        );
+
+      border-radius:14px;
+
+      backdrop-filter:blur(14px);
+      -webkit-backdrop-filter:blur(14px);
+
+      overflow:hidden;
+
+      transition:
+        transform .22s ease,
+        border-color .22s ease,
+        background .22s ease;
+    }
+
+    .hero-unit::after{
+      content:"";
+
+      position:absolute;
+      inset:auto -30% 0 auto;
+
+      width:180px;
+      height:1px;
+
+      background:
+        linear-gradient(
+          90deg,
+          transparent,
+          rgba(72,211,255,.72),
+          transparent
+        );
+    }
+
+    .hero-unit:hover{
+      transform:translateY(-3px);
+
+      border-color:
+        rgba(87,210,255,.42);
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(8,34,50,.88),
+          rgba(6,17,28,.74)
+        );
+    }
+
+    .hero-unit img{
+      width:84px;
+      height:54px;
+
+      flex-shrink:0;
+
+      object-fit:contain;
+
+      filter:
+        drop-shadow(
+          0 0 12px
+          rgba(39,186,236,.08)
+        );
+    }
+
+    .hero-unit div{
+      min-width:0;
+    }
+
+    .hero-unit b{
+      display:block;
+
+      margin-bottom:2px;
+
+      font-size:14px;
+      font-weight:900;
+
+      color:#fff;
+    }
+
+    .hero-unit span{
+      display:block;
+
+      color:#85a4b6;
+
+      font-size:12px;
+    }
+
+    /* =========================================================
+       META
+    ========================================================= */
+
+    .story-meta{
+      width:min(860px, 100%);
+
+      display:flex;
+      flex-wrap:wrap;
+
+      gap:18px 42px;
+
+      margin-top:38px;
+
+      padding-top:22px;
+
+      border-top:
+        1px solid rgba(255,255,255,.13);
+    }
+
+    .story-meta div{
+      min-width:145px;
+    }
+
+    .story-meta b{
+      display:block;
+
+      margin-bottom:4px;
+
+      color:#61d7ff;
+
+      font-size:9px;
+
+      letter-spacing:.18em;
+
+      font-weight:900;
+    }
+
+    .story-meta span{
+      color:#aabdc8;
+
+      font-size:12px;
+    }
+
+    /* =========================================================
+       SCROLL INDICATOR
+    ========================================================= */
+
+    .hero-scroll{
+      position:absolute;
+
+      z-index:12;
+
+      right:max(
+        24px,
+        calc((100vw - var(--max)) / 2)
+      );
+
+      bottom:48px;
+
+      display:flex;
+      align-items:center;
+
+      gap:12px;
+
+      color:#6f91a4;
+
+      font-size:9px;
+
+      font-weight:800;
+
+      letter-spacing:.2em;
+
+      text-transform:uppercase;
+    }
+
+    .scroll-line{
+      position:relative;
+
+      width:48px;
+      height:1px;
+
+      overflow:hidden;
+
+      background:
+        rgba(255,255,255,.15);
+    }
+
+    .scroll-line::after{
+      content:"";
+
+      position:absolute;
+
+      top:0;
+      left:-100%;
+
+      width:100%;
+      height:100%;
+
+      background:#5cd7ff;
+
+      animation:
+        scrollLine 2.2s ease-in-out infinite;
+    }
+
+    @keyframes scrollLine{
+      0%{
+        left:-100%;
+      }
+
+      55%{
+        left:100%;
+      }
+
+      100%{
+        left:100%;
+      }
+    }
+
+    /* =========================================================
+       INTRO / NEXT SECTION
+    ========================================================= */
+
+    .intro-band{
+      position:relative;
+
+      padding:
+        118px
+        0
+        130px;
+
+      background:
+        linear-gradient(
+          180deg,
+          #02070d,
+          #04101a
+        );
+
+      border-top:
+        1px solid rgba(85,188,228,.08);
+    }
+
+    .section-label{
+      color:#5fd7ff;
+
+      font-size:11px;
+
+      letter-spacing:.21em;
+
+      font-weight:900;
+
+      text-transform:uppercase;
+    }
+
+    .display-title{
+      max-width:880px;
+
+      margin:
+        12px
+        0
+        44px;
+
+      font-size:
+        clamp(
+          40px,
+          5vw,
+          68px
+        );
+
+      line-height:1;
+
+      letter-spacing:-.05em;
+    }
+
+    .deep-grid{
+      display:grid;
+
+      grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+      gap:14px;
+    }
+
+    .deep-card{
+      position:relative;
+
+      min-height:270px;
+
+      padding:28px;
+
+      display:flex;
+      flex-direction:column;
+
+      border:
+        1px solid rgba(61,133,162,.26);
+
+      border-radius:16px;
+
+      overflow:hidden;
+
+      background:
+        linear-gradient(
+          155deg,
+          #071722,
+          #06111b
+        );
+
+      transition:
+        transform .22s ease,
+        border-color .22s ease,
+        background .22s ease;
+    }
+
+    .deep-card::after{
+      content:"";
+
+      position:absolute;
+
+      width:160px;
+      height:160px;
+
+      top:-85px;
+      right:-85px;
+
+      border-radius:50%;
+
+      border:
+        1px solid rgba(77,203,250,.08);
+    }
+
+    .deep-card:hover{
+      transform:translateY(-4px);
+
+      border-color:
+        rgba(68,191,235,.42);
+
+      background:
+        linear-gradient(
+          155deg,
+          #082031,
+          #06121c
+        );
+    }
+
+    .deep-card .num{
+      color:#6cdcff;
+
+      font-size:10px;
+
+      letter-spacing:.18em;
+
+      font-weight:900;
+    }
+
+    .deep-card h3{
+      margin:
+        15px
+        0
+        12px;
+
+      font-size:28px;
+    }
+
+    .deep-card p{
+      margin:0;
+
+      color:#89a4b4;
+
+      font-size:14px;
+    }
+
+    .deep-card .card-link{
+      margin-top:auto;
+
+      padding-top:22px;
+
+      color:#61d7ff;
+
+      font-size:12px;
+
+      font-weight:800;
+    }
+
+    /* =========================================================
+       FOOTER
+    ========================================================= */
+
+    .footer{
+      padding:
+        66px
+        max(
+          24px,
+          calc((100vw - var(--max)) / 2)
+        )
+        26px;
+
+      border-top:
+        1px solid rgba(49,122,154,.16);
+
+      background:#02070d;
+    }
+
+    .footer-grid{
+      display:grid;
+
+      grid-template-columns:
+        2fr 1fr 1fr 1fr;
+
+      gap:42px;
+    }
+
+    .footer-logo{
+      width:auto;
+      height:62px;
+
+      object-fit:contain;
+    }
+
+    .footer p{
+      max-width:440px;
+
+      color:#7e99a9;
+
+      font-size:14px;
+    }
+
+    .footer h4{
+      margin:
+        0
+        0
+        14px;
+
+      font-size:13px;
+    }
+
+    .footer a{
+      display:block;
+
+      padding:4px 0;
+
+      color:#839fad;
+
+      font-size:13px;
+    }
+
+    .footer a:hover{
+      color:#fff;
+    }
+
+    .footer-bottom{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+
+      gap:20px;
+
+      margin-top:42px;
+
+      padding-top:20px;
+
+      border-top:
+        1px solid rgba(47,121,152,.18);
+
+      color:#637f90;
+
+      font-size:11px;
+    }
+
+    /* =========================================================
+       VIDEO STATUS
+    ========================================================= */
+
+    .video-status{
+      position:absolute;
+
+      left:24px;
+      bottom:24px;
+
+      z-index:15;
+
+      display:none;
+
+      padding:7px 10px;
+
+      border:
+        1px solid rgba(75,187,230,.22);
+
+      border-radius:8px;
+
+      color:#7d9cac;
+
+      background:
+        rgba(2,7,13,.72);
+
+      font-size:9px;
+
+      letter-spacing:.12em;
+
+      text-transform:uppercase;
+
+      pointer-events:none;
+    }
+
+    /*
+      Hanya tampil jika browser benar-benar gagal load video.
+      Ini bisa membantu Anda mengetahui masalah saat testing.
+    */
+
+    .video-status.error{
+      display:block;
+    }
+
+    /* =========================================================
+       RESPONSIVE — TABLET
+    ========================================================= */
+
+    @media(max-width:1180px){
+
+      .desktop-nav{
+        gap:14px;
+      }
+
+      .desktop-nav a{
+        font-size:12px;
+      }
+
+      .header-brand{
+        min-width:190px;
+      }
+
+      .header-logo{
+        height:43px;
+      }
+
+    }
+
+    @media(max-width:1060px){
+
+      :root{
+        --header:78px;
+      }
+
+      .desktop-nav{
+        display:none;
+      }
+
+      .menu-btn{
+        display:flex;
+      }
+
+      .header-brand{
+        min-width:0;
+      }
+
+      .story-title{
+        max-width:920px;
+      }
+
+      .deep-grid{
+        grid-template-columns:
+          repeat(2, minmax(0, 1fr));
+      }
+
+      .footer-grid{
+        grid-template-columns:
+          1fr 1fr;
+      }
+
+    }
+
+    /* =========================================================
+       RESPONSIVE — MOBILE
+    ========================================================= */
+
+    @media(max-width:720px){
+
+      :root{
+        --header:72px;
+      }
+
+      .container{
+        width:
+          min(
+            var(--max),
+            calc(100% - 28px)
+          );
+      }
+
+      .header{
+        padding-inline:14px;
+      }
+
+      .header-logo{
+        height:39px;
+        max-width:190px;
+      }
+
+      .story-hero{
+        align-items:flex-end;
+
+        min-height:100svh;
+      }
+
+      .story-video{
+        object-position:center center;
+      }
+
+      .story-overlay{
+        background:
+          linear-gradient(
+            90deg,
+            rgba(2,7,13,.94),
+            rgba(2,7,13,.57)
+          ),
+          linear-gradient(
+            0deg,
+            #02070d 0%,
+            rgba(2,7,13,.85) 18%,
+            rgba(2,7,13,.18) 63%,
+            rgba(2,7,13,.30) 100%
+          );
+      }
+
+      .story-grid{
+        background-size:
+          58px 58px;
+      }
+
+      .story-content{
+        padding-top:
+          calc(var(--header) + 90px);
+
+        padding-bottom:48px;
+      }
+
+      .page-index{
+        max-width:290px;
+
+        font-size:8px;
+
+        letter-spacing:.15em;
+      }
+
+      .page-index::before{
+        width:20px;
+        flex-basis:20px;
+      }
+
+      .story-title{
+        margin:
+          17px
+          0
+          22px;
+
+        max-width:100%;
+
+        font-size:
+          clamp(
+            48px,
+            15vw,
+            74px
+          );
+
+        line-height:.89;
+
+        letter-spacing:-.065em;
+      }
+
+      .story-copy{
+        max-width:540px;
+
+        font-size:15px;
+
+        line-height:1.65;
+      }
+
+      .actions{
+        display:grid;
+
+        grid-template-columns:
+          1fr 1fr;
+
+        width:100%;
+
+        gap:8px;
+
+        margin-top:24px;
+      }
+
+      .btn{
+        min-height:48px;
+
+        padding:0 12px;
+
+        font-size:12px;
+
+        text-align:center;
+      }
+
+      .hero-units{
+        grid-template-columns:1fr;
+
+        gap:8px;
+
+        margin-top:24px;
+      }
+
+      .hero-unit{
+        min-height:72px;
+
+        padding:9px 13px;
+      }
+
+      .hero-unit img{
+        width:66px;
+        height:46px;
+      }
+
+      .hero-unit b{
+        font-size:13px;
+      }
+
+      .hero-unit span{
+        font-size:11px;
+      }
+
+      .story-meta{
+        display:grid;
+
+        grid-template-columns:
+          repeat(2, 1fr);
+
+        gap:14px;
+
+        margin-top:26px;
+
+        padding-top:18px;
+      }
+
+      .story-meta div{
+        min-width:0;
+      }
+
+      .story-meta b{
+        font-size:8px;
+      }
+
+      .story-meta span{
+        font-size:10px;
+      }
+
+      .hero-scroll{
+        display:none;
+      }
+
+      .hero-fallback::before{
+        width:420px;
+        height:420px;
+
+        right:-240px;
+      }
+
+      .intro-band{
+        padding:
+          85px
+          0
+          95px;
+      }
+
+      .display-title{
+        font-size:
+          clamp(
+            38px,
+            12vw,
+            54px
+          );
+
+        margin-bottom:28px;
+      }
+
+      .deep-grid{
+        grid-template-columns:1fr;
+      }
+
+      .deep-card{
+        min-height:220px;
+
+        padding:24px;
+      }
+
+      .footer{
+        padding-inline:20px;
+      }
+
+      .footer-grid{
+        grid-template-columns:1fr;
+
+        gap:26px;
+      }
+
+      .footer-bottom{
+        display:grid;
+      }
+
+    }
+
+    /* =========================================================
+       SMALL MOBILE
+    ========================================================= */
+
+    @media(max-width:420px){
+
+      .story-title{
+        font-size:
+          clamp(
+            43px,
+            14.3vw,
+            61px
+          );
+      }
+
+      .actions{
+        grid-template-columns:1fr;
+      }
+
+      .story-meta{
+        grid-template-columns:1fr 1fr;
+      }
+
+    }
+
+    /* =========================================================
+       REDUCED MOTION
+    ========================================================= */
+
+    @media(prefers-reduced-motion:reduce){
+
+      *,
+      *::before,
+      *::after{
+        scroll-behavior:auto!important;
+
+        animation-duration:.01ms!important;
+        animation-iteration-count:1!important;
+
+        transition-duration:.01ms!important;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- =======================================================
+       HEADER
+  ======================================================== -->
+
+  <header class="header" id="mainHeader">
+
+    <a
+      href="index.html"
+      class="header-brand"
+      aria-label="ARESTER GROUP Home"
+    >
+
+      <img
+        src="assets/arester-group.png"
+        alt="ARESTER GROUP"
+        class="header-logo"
+      >
+
+    </a>
+
+
+    <nav
+      class="desktop-nav"
+      aria-label="Main navigation"
+    >
+
+      <a href="index.html">Home</a>
+
+      <a href="about.html">Company</a>
+
+      <a href="ecosystem.html">Ecosystem</a>
+
+      <a href="technology.html">Technology</a>
+
+      <a href="products.html">Products</a>
+
+      <a href="services.html">Services</a>
+
+      <a href="isp-billing.html">ISP Billing</a>
+
+      <a href="portfolio.html">Portfolio</a>
+
+      <a href="support.html">Support</a>
+
+      <a
+        href="login.html"
+        class="nav-login"
+      >
+        Customer Area
+      </a>
+
+    </nav>
+
+
+    <div class="header-tools">
+
+      <button
+        class="menu-btn"
+        id="menuBtn"
+        type="button"
+        aria-label="Open navigation"
+        aria-controls="mobileNav"
+        aria-expanded="false"
+      >
+
+        <span class="menu-lines">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+
+      </button>
+
+    </div>
+
+  </header>
+
+
+  <!-- =======================================================
+       MOBILE NAV
+  ======================================================== -->
+
+  <nav
+    class="mobile-nav"
+    id="mobileNav"
+    aria-label="Mobile navigation"
+  >
+
+    <a href="index.html">Home</a>
+
+    <a href="about.html">Company</a>
+
+    <a href="ecosystem.html">Ecosystem</a>
+
+    <a href="technology.html">Technology</a>
+
+    <a href="products.html">Products</a>
+
+    <a href="services.html">Services</a>
+
+    <a href="isp-billing.html">ISP Billing</a>
+
+    <a href="portfolio.html">Portfolio</a>
+
+    <a href="support.html">Support</a>
+
+    <a href="pricing.html">Pricing</a>
+
+    <a href="contact.html">Contact</a>
+
+    <a href="legal.html">Legal</a>
+
+    <a
+      href="login.html"
+      class="mobile-login"
+    >
+      Customer Area
+    </a>
+
+  </nav>
+
+
+  <main>
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section
+      class="story-hero"
+      id="hero"
+    >
+
+      <!--
+        VIDEO BACKGROUND
+
+        File repo saat ini:
+        assets/arester-cinematic-text-story-20s.mp4
+
+        autoplay + muted + playsinline penting
+        terutama untuk browser Android / iOS.
+      -->
+
+      <div class="story-video-wrap">
+
+        <div class="hero-fallback"></div>
+
+        <video
+          id="heroVideo"
+          class="story-video"
+
+          autoplay
+          muted
+          loop
+          playsinline
+
+          preload="metadata"
+
+          aria-hidden="true"
+        >
+
+          <source
+            src="assets/arester-cinematic-text-story-20s.mp4"
+            type="video/mp4"
+          >
+
+        </video>
+
+      </div>
+
+
+      <div class="story-overlay"></div>
+
+      <div class="story-grid"></div>
+
+      <div class="story-glow"></div>
+
+
+      <div class="container story-content">
+
+        <div class="page-index">
+
+          ARESTER GROUP / TECHNOLOGY • CONNECTIVITY • DIGITAL SYSTEMS
+
+        </div>
+
+
+        <h1 class="story-title">
+
+          Integrating People,
+
+          <br>
+
+          Technology &
+
+          <span>
+            Opportunity.
+          </span>
+
+        </h1>
+
+
+        <p class="story-copy">
+
+          Building a more connected and sustainable future through
+          connectivity, digital engineering, products, services,
+          and scalable technology systems.
+
+        </p>
+
+
+        <div class="actions">
+
+          <a
+            href="ecosystem.html"
+            class="btn"
+          >
+            Explore Ecosystem
+          </a>
+
+          <a
+            href="technology.html"
+            class="btn secondary"
+          >
+            Explore Technology
+          </a>
+
+        </div>
+
+
+        <!-- ================================================
+             BUSINESS UNITS
+        ================================================= -->
+
+        <div class="hero-units">
+
+          <a
+            href="networking-services.html"
+            class="hero-unit"
+          >
+
+            <img
+              src="assets/aresternet.png"
+              alt="ARESTERNET"
+            >
+
+            <div>
+
+              <b>
+                ARESTERNET
+              </b>
+
+              <span>
+                Connectivity & ISP Solutions
+              </span>
+
+            </div>
+
+          </a>
+
+
+          <a
+            href="technology.html"
+            class="hero-unit"
+          >
+
+            <img
+              src="assets/aresterdev.png"
+              alt="ARESTERdev"
+            >
+
+            <div>
+
+              <b>
+                ARESTERdev
+              </b>
+
+              <span>
+                Official Development Team
+              </span>
+
+            </div>
+
+          </a>
+
+        </div>
+
+
+        <!-- ================================================
+             CORPORATE META
+        ================================================= -->
+
+        <div class="story-meta">
+
+          <div>
+
+            <b>
+              MASTER BRAND
+            </b>
+
+            <span>
+              ARESTER GROUP
+            </span>
+
+          </div>
+
+
+          <div>
+
+            <b>
+              MAIN BUSINESS
+            </b>
+
+            <span>
+              ARESTERNET
+            </span>
+
+          </div>
+
+
+          <div>
+
+            <b>
+              DEVELOPMENT ENGINE
+            </b>
+
+            <span>
+              ARESTERdev
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="hero-scroll">
+
+        SCROLL
+
+        <span class="scroll-line"></span>
+
+      </div>
+
+
+      <div
+        class="video-status"
+        id="videoStatus"
+      >
+        Video fallback active
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         EXPLORE
+    ====================================================== -->
+
+    <section class="intro-band">
+
+      <div class="container">
+
+        <div class="section-label">
+          ARESTER ECOSYSTEM
+        </div>
+
+
+        <h2 class="display-title">
+
+          Explore every layer
+          of ARESTER.
+
+        </h2>
+
+
+        <div class="deep-grid">
+
+
+          <a
+            class="deep-card"
+            href="about.html"
+          >
+
+            <span class="num">
+              01
+            </span>
+
+            <h3>
+              Company
+            </h3>
+
+            <p>
+
+              Corporate identity, direction,
+              operating model, and long-term
+              structure of ARESTER GROUP.
+
+            </p>
+
+            <span class="card-link">
+              Explore Company →
+            </span>
+
+          </a>
+
+
+          <a
+            class="deep-card"
+            href="ecosystem.html"
+          >
+
+            <span class="num">
+              02
+            </span>
+
+            <h3>
+              Ecosystem
+            </h3>
+
+            <p>
+
+              How ARESTER GROUP,
+              ARESTERNET, ARESTERdev,
+              products, services, and
+              customer systems connect.
+
+            </p>
+
+            <span class="card-link">
+              Explore Ecosystem →
+            </span>
+
+          </a>
+
+
+          <a
+            class="deep-card"
+            href="technology.html"
+          >
+
+            <span class="num">
+              03
+            </span>
+
+            <h3>
+              Technology
+            </h3>
+
+            <p>
+
+              Digital engineering,
+              automation, development tools,
+              platforms, infrastructure,
+              and technology systems.
+
+            </p>
+
+            <span class="card-link">
+              Explore Technology →
+            </span>
+
+          </a>
+
+
+          <a
+            class="deep-card"
+            href="products.html"
+          >
+
+            <span class="num">
+              04
+            </span>
+
+            <h3>
+              Products
+            </h3>
+
+            <p>
+
+              MikroTik templates,
+              website templates,
+              software products,
+              tools, and digital assets.
+
+            </p>
+
+            <span class="card-link">
+              Explore Products →
+            </span>
+
+          </a>
+
+
+          <a
+            class="deep-card"
+            href="services.html"
+          >
+
+            <span class="num">
+              05
+            </span>
+
+            <h3>
+              Services
+            </h3>
+
+            <p>
+
+              Networking,
+              MikroTik engineering,
+              website development,
+              software development,
+              and custom technology services.
+
+            </p>
+
+            <span class="card-link">
+              Explore Services →
+            </span>
+
+          </a>
+
+
+          <a
+            class="deep-card"
+            href="isp-billing.html"
+          >
+
+            <span class="num">
+              06
+            </span>
+
+            <h3>
+              ISP Billing SaaS
+            </h3>
+
+            <p>
+
+              Scalable ISP management
+              and recurring billing platform
+              designed for modern
+              network operators.
+
+            </p>
+
+            <span class="card-link">
+              Explore ISP Billing →
+            </span>
+
+          </a>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =======================================================
+       FOOTER
+  ======================================================== -->
+
+  <footer class="footer">
+
+    <div class="footer-grid">
+
+
+      <div>
+
+        <img
+          src="assets/arester-group.png"
+          alt="ARESTER GROUP"
+          class="footer-logo"
+        >
+
+        <p>
+
+          Integrated technology group for
+          connectivity, digital products,
+          IT services, development systems,
+          and ISP technology.
+
+        </p>
+
+      </div>
+
+
+      <div>
+
+        <h4>
+          Explore
+        </h4>
+
+        <a href="about.html">
+          Company
+        </a>
+
+        <a href="ecosystem.html">
+          Ecosystem
+        </a>
+
+        <a href="technology.html">
+          Technology
+        </a>
+
+        <a href="portfolio.html">
+          Portfolio
+        </a>
+
+      </div>
+
+
+      <div>
+
+        <h4>
+          Business
+        </h4>
+
+        <a href="products.html">
+          Products
+        </a>
+
+        <a href="services.html">
+          Services
+        </a>
+
+        <a href="isp-billing.html">
+          ISP Billing
+        </a>
+
+        <a href="pricing.html">
+          Pricing
+        </a>
+
+      </div>
+
+
+      <div>
+
+        <h4>
+          Platform
+        </h4>
+
+        <a href="login.html">
+          Login
+        </a>
+
+        <a href="customer-area.html">
+          Customer Area
+        </a>
+
+        <a href="support.html">
+          Support
+        </a>
+
+        <a href="contact.html">
+          Contact
+        </a>
+
+      </div>
+
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <span>
+        © 2026 ARESTER GROUP
+      </span>
+
+      <span>
+        Digital systems engineered by ARESTERdev
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =======================================================
+       JAVASCRIPT
+  ======================================================== -->
+
+  <script>
+
+    (() => {
+
+      "use strict";
+
+
+      /* =====================================================
+         ELEMENTS
+      ====================================================== */
+
+      const body =
+        document.body;
+
+      const header =
+        document.getElementById("mainHeader");
+
+      const menuBtn =
+        document.getElementById("menuBtn");
+
+      const mobileNav =
+        document.getElementById("mobileNav");
+
+      const heroVideo =
+        document.getElementById("heroVideo");
+
+      const videoStatus =
+        document.getElementById("videoStatus");
+
+
+      /* =====================================================
+         HEADER SCROLL
+      ====================================================== */
+
+      function updateHeader(){
+
+        if(!header){
+          return;
+        }
+
+        if(window.scrollY > 30){
+
+          header.classList.add("scrolled");
+
+        }else{
+
+          header.classList.remove("scrolled");
+
+        }
+
+      }
+
+
+      updateHeader();
+
+
+      window.addEventListener(
+        "scroll",
+        updateHeader,
+        {
+          passive:true
+        }
+      );
+
+
+      /* =====================================================
+         MOBILE MENU
+      ====================================================== */
+
+      function closeMobileMenu(){
+
+        if(!mobileNav || !menuBtn){
+          return;
+        }
+
+        mobileNav.classList.remove("open");
+
+        menuBtn.classList.remove("active");
+
+        menuBtn.setAttribute(
+          "aria-expanded",
+          "false"
+        );
+
+        body.classList.remove("menu-open");
+
+      }
+
+
+      function openMobileMenu(){
+
+        if(!mobileNav || !menuBtn){
+          return;
+        }
+
+        mobileNav.classList.add("open");
+
+        menuBtn.classList.add("active");
+
+        menuBtn.setAttribute(
+          "aria-expanded",
+          "true"
+        );
+
+        body.classList.add("menu-open");
+
+      }
+
+
+      if(menuBtn){
+
+        menuBtn.addEventListener(
+          "click",
+          () => {
+
+            const isOpen =
+              mobileNav.classList.contains("open");
+
+
+            if(isOpen){
+
+              closeMobileMenu();
+
+            }else{
+
+              openMobileMenu();
+
+            }
+
+          }
+        );
+
+      }
+
+
+      if(mobileNav){
+
+        mobileNav
+          .querySelectorAll("a")
+          .forEach(link => {
+
+            link.addEventListener(
+              "click",
+              closeMobileMenu
+            );
+
+          });
+
+      }
+
+
+      document.addEventListener(
+        "keydown",
+        event => {
+
+          if(event.key === "Escape"){
+
+            closeMobileMenu();
+
+          }
+
+        }
+      );
+
+
+      /* =====================================================
+         HERO VIDEO SYSTEM
+      ====================================================== */
+
+      if(heroVideo){
+
+
+        /*
+          Video harus muted agar autoplay
+          diizinkan Android, Chrome, Safari,
+          iPhone, tablet, dan desktop.
+        */
+
+        heroVideo.muted = true;
+
+        heroVideo.defaultMuted = true;
+
+        heroVideo.loop = true;
+
+        heroVideo.playsInline = true;
+
+
+        /*
+          Fungsi sukses.
+        */
+
+        function videoReady(){
+
+          heroVideo.classList.remove(
+            "video-error"
+          );
+
+          heroVideo.classList.add(
+            "video-ready"
+          );
+
+          if(videoStatus){
+
+            videoStatus.classList.remove(
+              "error"
+            );
+
+          }
+
+        }
+
+
+        /*
+          Fungsi fallback.
+        */
+
+        function videoFailed(){
+
+          heroVideo.classList.remove(
+            "video-ready"
+          );
+
+          heroVideo.classList.add(
+            "video-error"
+          );
+
+          if(videoStatus){
+
+            videoStatus.classList.add(
+              "error"
+            );
+
+          }
+
+        }
+
+
+        /*
+          Browser sudah menerima frame video.
+        */
+
+        heroVideo.addEventListener(
+          "loadeddata",
+          videoReady
+        );
+
+
+        heroVideo.addEventListener(
+          "canplay",
+          videoReady
+        );
+
+
+        heroVideo.addEventListener(
+          "playing",
+          videoReady
+        );
+
+
+        /*
+          Error file / codec.
+        */
+
+        heroVideo.addEventListener(
+          "error",
+          videoFailed
+        );
+
+
+        /*
+          Coba menjalankan video secara manual.
+          Ini membantu browser mobile tertentu
+          yang tidak langsung menjalankan autoplay.
+        */
+
+        async function startHeroVideo(){
+
+          try{
+
+            heroVideo.muted = true;
+
+            const playPromise =
+              heroVideo.play();
+
+
+            if(
+              playPromise &&
+              typeof playPromise.then === "function"
+            ){
+
+              await playPromise;
+
+            }
+
+
+            if(
+              heroVideo.readyState >= 2
+            ){
+
+              videoReady();
+
+            }
+
+
+          }catch(error){
+
+            /*
+              Jangan langsung menyembunyikan video.
+              Beberapa browser baru mengizinkan
+              autoplay setelah lifecycle berikutnya.
+            */
+
+            console.warn(
+              "ARESTER hero video autoplay delayed:",
+              error
+            );
+
+          }
+
+        }
+
+
+        /*
+          Jalankan ketika halaman siap.
+        */
+
+        if(
+          document.readyState === "complete" ||
+          document.readyState === "interactive"
+        ){
+
+          startHeroVideo();
+
+        }else{
+
+          document.addEventListener(
+            "DOMContentLoaded",
+            startHeroVideo,
+            {
+              once:true
+            }
+          );
+
+        }
+
+
+        /*
+          Coba lagi setelah window selesai loading.
+        */
+
+        window.addEventListener(
+          "load",
+          startHeroVideo,
+          {
+            once:true
+          }
+        );
+
+
+        /*
+          Coba lagi ketika tab kembali aktif.
+        */
+
+        document.addEventListener(
+          "visibilitychange",
+          () => {
+
+            if(
+              document.visibilityState === "visible" &&
+              heroVideo.paused
+            ){
+
+              startHeroVideo();
+
+            }
+
+          }
+        );
+
+
+        /*
+          Android / browser tertentu kadang
+          memerlukan interaksi pertama.
+        */
+
+        const retryVideoAfterInteraction =
+          () => {
+
+            if(heroVideo.paused){
+
+              startHeroVideo();
+
+            }
+
+          };
+
+
+        document.addEventListener(
+          "touchstart",
+          retryVideoAfterInteraction,
+          {
+            once:true,
+            passive:true
+          }
+        );
+
+
+        document.addEventListener(
+          "click",
+          retryVideoAfterInteraction,
+          {
+            once:true
+          }
+        );
+
+
+        /*
+          Watchdog.
+
+          Jika setelah beberapa detik browser
+          benar-benar tidak bisa decode video,
+          gunakan fallback background.
+        */
+
+        window.setTimeout(
+          () => {
+
+            if(
+              heroVideo.readyState === 0
+            ){
+
+              videoFailed();
+
+            }
+
+          },
+          7000
+        );
+
+      }
+
+
+      /* =====================================================
+         INTERNAL ANCHOR SMOOTH SCROLL
+      ====================================================== */
+
+      document
+        .querySelectorAll('a[href^="#"]')
+        .forEach(anchor => {
+
+          anchor.addEventListener(
+            "click",
+            event => {
+
+              const id =
+                anchor.getAttribute("href");
+
+              if(
+                !id ||
+                id === "#"
+              ){
+
+                return;
+
+              }
+
+              const target =
+                document.querySelector(id);
+
+              if(target){
+
+                event.preventDefault();
+
+                target.scrollIntoView({
+                  behavior:"smooth",
+                  block:"start"
+                });
+
+              }
+
+            }
+          );
+
+        });
+
+
+    })();
+
+  </script>
+
+</body>
+</html>
