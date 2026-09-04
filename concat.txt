@@ -1,11 +1,11 @@
-file '/mnt/data/ARESTER_GROUP_40Pages_BuilderStory/assets/builder_story_scenes/01.jpg'
+file '/mnt/data/ARESTER_GROUP_30Pages_Cinematic/assets/story_scenes/scene1.jpg'
 duration 4
-file '/mnt/data/ARESTER_GROUP_40Pages_BuilderStory/assets/builder_story_scenes/02.jpg'
+file '/mnt/data/ARESTER_GROUP_30Pages_Cinematic/assets/story_scenes/scene2.jpg'
 duration 4
-file '/mnt/data/ARESTER_GROUP_40Pages_BuilderStory/assets/builder_story_scenes/03.jpg'
+file '/mnt/data/ARESTER_GROUP_30Pages_Cinematic/assets/story_scenes/scene3.jpg'
 duration 4
-file '/mnt/data/ARESTER_GROUP_40Pages_BuilderStory/assets/builder_story_scenes/04.jpg'
+file '/mnt/data/ARESTER_GROUP_30Pages_Cinematic/assets/story_scenes/scene4.jpg'
 duration 4
-file '/mnt/data/ARESTER_GROUP_40Pages_BuilderStory/assets/builder_story_scenes/05.jpg'
+file '/mnt/data/ARESTER_GROUP_30Pages_Cinematic/assets/story_scenes/scene5.jpg'
 duration 4
-file '/mnt/data/ARESTER_GROUP_40Pages_BuilderStory/assets/builder_story_scenes/05.jpg'
+file '/mnt/data/ARESTER_GROUP_30Pages_Cinematic/assets/story_scenes/scene5.jpg'
